@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+img {
+  height: 750px;
+}
+
+.standings {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.standings .table-head,
+.standings .team-position {
+  color: #878787;
+}
+
+.standings .team-position {
+  text-align: left;
+}
+
+.standings tr {
+  border-bottom: 1px solid #dedede;
+  line-height: 2.3em;
+}
+
+.standings tr:last-child {
+  border: none;
+}
+
+.standings td {
+  width: 35px;
+}
+
+.standings .team-name {
+  width: 250px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.crest {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.crest img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.standings .team-points {
+  font-weight: bold;
+}
+
+.about {
+  padding: 10px;
+}
+
+.big-logo img {
+  max-block-size: 100px;
+  padding-top: 20px;
+}
+
+.logo-head {
+  text-align: center;
+  column-span: 3;
+  columns: 3;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
